@@ -218,12 +218,13 @@
 				TargetAttributes = {
 					8EC8C3C81DEC8C3E0044FB44 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = WHYAF5V955;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					8EC8C3D11DEC8C3E0044FB44 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = 683U48NZTT;
+						DevelopmentTeam = WHYAF5V955;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -233,6 +234,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 8EC8C3BF1DEC8C3E0044FB44;
@@ -475,9 +477,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = WHYAF5V955;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -498,9 +501,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = WHYAF5V955;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -519,7 +523,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 683U48NZTT;
+				DEVELOPMENT_TEAM = WHYAF5V955;
 				INFOPLIST_FILE = CreditCardFormTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.orazz.CreditCardFormTests;
@@ -532,7 +536,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 683U48NZTT;
+				DEVELOPMENT_TEAM = WHYAF5V955;
 				INFOPLIST_FILE = CreditCardFormTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.orazz.CreditCardFormTests;
