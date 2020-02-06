@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.version      = "0.1.9"
   s.summary      = "CreditCardForm is iOS framework"
 
-  s.description  = "CreditCardForm is iOS framework that allows developers to create the UI which replicates an actual Credit Card"
+  s.description  = "CreditCardForm is iOS framework that allows developers to create the UI which replicates an actual Credit Card updated to swift 5.0"
   s.homepage     = "https://github.com/CreditCardForm"
   s.screenshots  = 'https://camo.githubusercontent.com/e30bcc0537ff4aa4adae4f39ad664aeb2fd7db76/68747470733a2f2f646f746a70672e636f2f3862752e706e67'
   s.license      = { :type => "MIT" }
