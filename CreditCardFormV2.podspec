@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/FlammerSL/CreditCardForm-iOS"
   s.screenshots  = 'https://camo.githubusercontent.com/e30bcc0537ff4aa4adae4f39ad664aeb2fd7db76/68747470733a2f2f646f746a70672e636f2f3862752e706e67'
   s.license      = { :type => "MIT" }
-  s.author       = { "orazz" => "orazz.tm@gmail.com", "ranasinghe.i.u@gmail.com" }
+  s.author       = { "orazz" => "orazz.tm@gmail.com", "Isuru Ranasinghe" => "ranasinghe.i.u@gmail.com" }
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/FlammerSL/CreditCardForm-iOS.git", :tag => s.version.to_s }
 
