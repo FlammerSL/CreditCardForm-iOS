@@ -1,9 +1,9 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "CreditCardForm"
+  s.name         = "CreditCardFormV2"
   s.version      = "0.1.9"
-  s.summary      = "CreditCardForm is iOS framework"
+  s.summary      = "CreditCardForm is iOS framework updated to swift5"
 
   s.description  = "CreditCardForm is iOS framework that allows developers to create the UI which replicates an actual Credit Card updated to swift 5.0"
   s.homepage     = "https://github.com/FlammerSL/CreditCardForm-iOS"
